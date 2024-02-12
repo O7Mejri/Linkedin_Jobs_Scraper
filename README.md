@@ -5,9 +5,13 @@ This project is a web scraper built with Scrapy to extract job listings from Lin
 ## Installation
 
 Install everything:
+
     ```
     pip install -r requirements.txt
     ```
+
+
+
 1. **Install Scrapy**: Make sure to install Scrapy. You can install it via pip:
 
     ```
