@@ -13,7 +13,9 @@ This project is a web scraper built with Scrapy to extract job listings from Lin
 
 2. **Install Twisted**: Install a specific version of Twisted (22.10.0) required by Scrapy:
 
-    ```pip install Twisted==22.10.0```
+    ```
+    pip install Twisted==22.10.0
+    ```
 
 
 ## Usage
@@ -22,19 +24,21 @@ To run the LinkedIn Jobs Scraper, follow these steps:
 
 1. **Run the Spider**: Use the following command to start the spider:
 
-    ```scrapy crawl linkedin_jobs```
+    ```
+    scrapy crawl linkedin_jobs
+    ```
 
 
-2. **Customize Search**: You can customize the job title and location in the spider settings.
+3. **Customize Search**: You can customize the job title and location in the spider settings.
 
-3. **Data Output**:
+4. **Data Output**:
 - The scraped data is saved in a JSON file.
 - Additionally, the data is stored in a PostgreSQL database.
 
 ## Methods Used for Bypassing Access Limits
 
 The following methods are used to bypass access limits and ensure successful scraping:
-- Fake User Agent: The spider uses a fake user agent to mimic real user behavior.
+- Fake User Agent: The spider uses a fake user agent to mimic real user behaviour.
 - Random User Agents List Rotator: Rotates through a list of user agents to avoid detection.
 - Random Fake Headers Rotation: Rotates fake headers to make requests appear more natural.
 - Proxy Rotation: Utilizes a list of proxies to change IP addresses.
