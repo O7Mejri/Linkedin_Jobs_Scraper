@@ -8,6 +8,7 @@ This project is a web scraper built with Scrapy to extract job listings from Lin
 
     ```
     pip install scrapy
+    ```
 
 
 2. **Install Twisted**: Install a specific version of Twisted (22.10.0) required by Scrapy:
